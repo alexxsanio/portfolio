@@ -1,0 +1,29 @@
+.cover{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#dbddec;
+    color:#4e4b44;
+}
+
+.cover-content{
+    text-align:center;
+}
+
+.cover h1{
+    font-size:72px;
+    margin-bottom:20px;
+}
+
+.cover h2{
+    font-size:32px;
+    font-weight:300;
+    margin-bottom:30px;
+}
+
+.cover p{
+    opacity:.6;
+    letter-spacing:3px;
+}
