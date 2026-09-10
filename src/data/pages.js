@@ -29,7 +29,7 @@ const pages = [
 pages.push({
     id: "end",
     type: "end",
-    maintitle: "Thank you for your attention.",
+    maintitle: "Thank you for your patience.",
     contact: "Email: alexalternative710@gmail.com",
     color: presetColors[contentPages.length % presetColors.length]
 });
