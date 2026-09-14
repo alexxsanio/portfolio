@@ -42,24 +42,20 @@ main {
 }
 
 .section-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    display: flex;
     width: 100%;
+    height: 100%;
 }
 
 .left-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 50%;
     text-align: center;
 }
 
 .right-column {
-    display: flex;
-    align-items: flex-start;
+    width: 50%;
 }
+
 
 .quote {
     margin: 0;
@@ -114,5 +110,29 @@ main {
 
     .explanation {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-content {
+        flex-direction: column;
+        height: auto;
+        min-height: 100%;
+        padding: 40px 25px;
+        box-sizing: border-box;
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%;
+    }
+
+    .left-column {
+        margin-bottom: 30px;
+    }
+
+    .explanation {
+        font-size: 18px;
+        line-height: 1.6;
     }
 }
