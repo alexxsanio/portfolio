@@ -16,6 +16,14 @@ export const data = [
         "link": "https://docs.google.com/spreadsheets/d/1wHVkrxd0-6LbPUtWQSXBKbBd2oa5CpE41uQJnDw2pFA/edit?usp=sharing"
     },
     {
+        "projectname": "A Review Of Backend Engineer Jobs",
+        "description": `Used jobspy Python library to scrape 3060 backend engineering job across 43 states in the US. Visualized the job counts and salary distributions, as well as job levels across different states using geopy and box chart.
+        Developed a wordcloud of common companies that's hiring, most frequent industries, and a quater/three-quater split pie chart of remote vs. non-remote jobs. 
+        Used the library sentence_transformers to convert the about section of job descriptions into numerical vectors, and then used KMeans to cluster them so that common themes of companies show up in a 3d visualization.
+        Used similar techniques to cluster and surface common key phrases of job responsibilities, requirements and benefits.`,
+        "link": "https://alexxsanio.github.io/posts/2025-11-25-backend-eng-review/"
+    },
+    {
         "projectname": "Critical Mineral Prediction for Humanitarian Aid",
         "description": `Selected vulnerable locations based on five indicators of global poverty, including wealth, water access and quality, and women’s education for over 100,000 coordinate sets across the Global South.
         Filtered global geoscientific maps to associate each training and testing location with rich soil, whole rock and terrain features. Created a novel dataset of 10k rows of 1759 geoscientific features.
@@ -29,13 +37,5 @@ export const data = [
         Processed the dataset by calculating the medium price across all markets for each crop and time period. Built the training dataset the same way we pre-train an LLM. LLM is based on next word prediction based on a sequence of previous words. Here we predict the fifth month given previous 4 months using Transformer.
         For example, starting from July - Oct at previous year to predict Nov's price_usd, igc_<crop>, then using Aug - Nov to predict Dec, etc., up until Feb - May to predict June. We'll use data starting July 2017 up until March 2022. `,
         "link": "https://medium.com/@tianyi437/critical-mineral-prediction-for-humanitarian-aid-64d1c7a7c031"
-    },
-    {
-        "projectname": "A Review Of Backend Engineer Jobs",
-        "description": `Used jobspy Python library to scrape 3060 backend engineering job across 43 states in the US. Visualized the job counts and salary distributions, as well as job levels across different states using geopy and box chart.
-        Developed a wordcloud of common companies that's hiring, most frequent industries, and a quater/three-quater split pie chart of remote vs. non-remote jobs. 
-        Used the library sentence_transformers to convert the about section of job descriptions into numerical vectors, and then used KMeans to cluster them so that common themes of companies show up in a 3d visualization.
-        Used similar techniques to cluster and surface common key phrases of job responsibilities, requirements and benefits.`,
-        "link": "https://alexxsanio.github.io/posts/2025-11-25-backend-eng-review/"
     },
 ]
