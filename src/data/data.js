@@ -36,6 +36,6 @@ export const data = [
         "description": `Predicted prices for wheat, maize, rice, and barley from markets across the world going as far back as the 1990s the start of the Russia invasion of Ukraine, tasked with forecasting how this conflict will impact grain prices in markets around the world for the next 3 months.
         Processed the dataset by calculating the medium price across all markets for each crop and time period. Built the training dataset the same way we pre-train an LLM. LLM is based on next word prediction based on a sequence of previous words. Here we predict the fifth month given previous 4 months using Transformer.
         For example, starting from July - Oct at previous year to predict Nov's price_usd, igc_<crop>, then using Aug - Nov to predict Dec, etc., up until Feb - May to predict June. We'll use data starting July 2017 up until March 2022. `,
-        "link": "https://medium.com/@tianyi437/critical-mineral-prediction-for-humanitarian-aid-64d1c7a7c031"
+        "link": "https://www.kaggle.com/code/tianyimasf/wheat-price-shock-forecast"
     },
 ]
