@@ -13,9 +13,9 @@ function Section({
                 }}
             >
                 <div className="cover-content">
-                    <h1 style={{ fontSize: "62px" }}>Alex Ma - Portfolio</h1>
-                    <h2 style={{ lineHeight: "1.5", fontSize: "25px" }}>
-                        Statistical and data analysis projects using R, Python and Machine Learning; financial analysis using Google Sheets.
+                    <h1 style={{ fontSize: "62px" }}>Alexis Ma - Portfolio</h1>
+                    <h2 style={{ lineHeight: "1.5", fontSize: "25px", marginLeft: "70px", marginRight: "70px" }}>
+                        Statistical and data analysis projects using R, Python and Machine Learning; financial analysis using Google Sheets; tiny softwares and tools using Python scripts, backend frameworks, MongoDB and TypeScript. 
                     </h2>
                     <p>Scroll to begin</p>
                 </div>
