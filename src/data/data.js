@@ -38,4 +38,28 @@ export const data = [
         For example, starting from July - Oct at previous year to predict Nov's price_usd, igc_<crop>, then using Aug - Nov to predict Dec, etc., up until Feb - May to predict June. We'll use data starting July 2017 up until March 2022. `,
         "link": "https://www.kaggle.com/code/tianyimasf/wheat-price-shock-forecast"
     },
+    {
+        "projectname": "threadscraper",
+        "description": `Commandline tool to scrape threads from a list of user profiles given a list of usernames, specified in settings.yaml or as arguments of the commandline call. 
+        Scrapes username, text, reply_count, like_count, reshare_count, repost_count, created_at, url of thread, for each recent thread under the user profile, then save the entries in a csv file under the data folder.`,
+        "link": "https://github.com/alexxsanio/threadscraper"
+    },
+    {
+        "projectname": "databot",
+        "description": `A chatbot that scrapes research data from html pages. The bot takes an url from user, scrapes selector data according to user specification and returns the data in a csv file. 
+        It then takes randomly 10 entries from the initial search result, scrapes the webpages returned by google searching the entry term by summarizing the most relevant terms based on returned data. 
+        The summarized fields are returned to the user-side, the chatbot then prompts the user to select which fields to scrape for all entries in the initial search result. The bot then execute the dataset enrichement
+        and returns the final, full dataset in a csv file for the user to download. If in any step the search and summarization failed, the bot will pause the pipeline and return the error reason.`,
+        "link": "https://github.com/alexxsanio/databot"
+    },
+    {
+        "projectname": "AccidentsMap",
+        "description": `A GIS map that displays car crash accidents in Colorado. Allows user to mark car crash locations, timestamps, severity level and photos to the map.`,
+        "link": "https://github.com/alexxsanio/AccidentsMap"
+    },
+    {
+        "projectname": "diary",
+        "description": `A webpage where you can speak out about your thoughts by booting the app locally in 2 steps. Type in your thoughts and save entries as an image.`,
+        "link": "https://github.com/alexxsanio/diary"
+    },
 ]
