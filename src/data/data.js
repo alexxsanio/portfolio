@@ -8,6 +8,12 @@ export const data = [
         "link": "https://www.kaggle.com/code/tianyimasf/r-feature-analysis-modeling"
     },
     {
+        "projectname": "Visualize Optimized Electric Grid Configuration with EV and DER Integration",
+        "description": `Using optimization in Python, considered resiliency as tuning parameter, cost and autonomy as success metrics to generate EV profiles based on load, solar and wind profile and assuming any DER configuration.
+        Visualized the equilibrium in a dashboard where EV and DER configurations are customizable.`,
+        "link": "https://docs.google.com/presentation/d/e/2PACX-1vRRKiGp4o3V4iFhPHk2dDIVvRounOrQfJDNkk0lDfDJm1lNdr9hfu11eAG4VNmmQQ/pub?start=false&loop=false&delayms=3000"
+    },
+    {
         "projectname": "Financial Analysis in Excel: art prints and merches business case study",
         "description": `XXX is a pop art individual business that originated in XX, Colorado at the Coffee shop. 
         The art protrays local and popular female icons, and independent, strong strong woman models. It also investigates underground culture references, and what it means to be a strong woman and cultural figure. 
@@ -59,7 +65,7 @@ export const data = [
     },
     {
         "projectname": "diary",
-        "description": `A webpage where you can speak out about your thoughts by booting the app locally in 2 steps. Type in your thoughts and save entries as an image.`,
+        "description": `A webpage where you can speak out about your thoughts. Boot the app locally in 2 steps. Type in your thoughts and save entries as an image.`,
         "link": "https://github.com/alexxsanio/diary"
     },
 ]
